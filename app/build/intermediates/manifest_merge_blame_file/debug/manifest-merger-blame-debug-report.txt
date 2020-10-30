@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2016 Google Inc.
+4
+5Licensed under the Apache License, Version 2.0 (the "License");
+6you may not use this file except in compliance with the License.
+7You may obtain a copy of the License at
+8
+9    http://www.apache.org/licenses/LICENSE-2.0
+10
+11Unless required by applicable law or agreed to in writing, software
+12distributed under the License is distributed on an "AS IS" BASIS,
+13WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14See the License for the specific language governing permissions and
+15limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.twoactivities"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml
+25
+26    <application
+26-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:18:5-38:19
+27        android:allowBackup="true"
+27-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:19:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.0] C:\Users\joann\.gradle\caches\transforms-2\files-2.1\f88df7c86cbc989e82020e686162bad6\core-1.0.0\AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:20:9-43
+31        android:label="@string/app_name"
+31-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:21:9-41
+32        android:supportsRtl="true"
+32-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:22:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:23:9-40
+35        <activity android:name="com.example.android.twoactivities.MainActivity" >
+35-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:24:9-29:20
+35-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:24:19-47
+36            <intent-filter>
+36-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:25:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:26:17-69
+37-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:26:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:27:17-77
+39-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:27:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:30:9-37:20
+43            android:name="com.example.android.twoactivities.SecondActivity"
+43-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:31:13-43
+44            android:label="@string/activity2_name"
+44-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:32:13-51
+45            android:parentActivityName="com.example.android.twoactivities.MainActivity" >
+45-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:33:13-55
+46            <meta-data
+46-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:34:13-36:82
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:35:17-63
+48                android:value="com.example.android.twoactivities.MainActivity" />
+48-->D:\Documents\studia\r3s1\SMiS\TwoActivities\app\src\main\AndroidManifest.xml:36:17-79
+49        </activity>
+50    </application>
+51
+52</manifest>

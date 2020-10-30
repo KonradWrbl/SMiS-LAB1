@@ -1,0 +1,4 @@
+#Fri Oct 23 15:40:12 CEST 2020
+base.0=D\:\\Documents\\studia\\r3s1\\SMiS\\TwoActivities\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
